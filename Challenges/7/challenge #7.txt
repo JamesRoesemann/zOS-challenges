@@ -1,0 +1,8 @@
+programming challenge #7
+
+
+The next programming challenge for current recipients of the IBM z/OS Pre-apprenticeship Certificate is to write a program (in a Z Xplore language of your choice) that generates a sequence of Fibonacci numbers:
+https://en.wikipedia.org/wiki/Fibonacci_number 
+
+posted 6/6/22
+

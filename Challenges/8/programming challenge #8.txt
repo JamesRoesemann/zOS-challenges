@@ -1,0 +1,8 @@
+programming challenge #8
+
+
+The programming challenge for current recipients of the IBM z/OS Pre-apprenticeship Certificate is to write a program that generates a Collatz Conjecture sequence using Z Xplore programming languages of your choice.  Here is a YouTube video for more information on the Collatz Conjecture:
+
+https://youtu.be/094y1Z2wpJg
+
+posted 6/20/22
