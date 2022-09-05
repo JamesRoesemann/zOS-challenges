@@ -1,0 +1,94 @@
+      *-----------------------
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.    DEPTHC.
+      *-----------------------
+       AUTHOR. James Roesemann.
+      * MODIDFIED FORM A PROGRAM WRITTEN BY Dana Noftle.
+      DATE-WRITTEN. September 9th 2022
+
+      *--------------------
+       ENVIRONMENT DIVISION.
+      *--------------------
+
+      *******************************************************
+      * This program is a recreation of the depth charge     *
+      * game published in the NOV - DEC 1974 issue of        *
+      * Creative Computing Magazine.      
+      *******************************************************
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT GAME-RECORDS ASSIGN TO GAMEREC.
+      *    ORGANIZATION IS LINE SEQUENTIAL
+      *    ACCESS IS SEQUENTIAL.
+
+      *-------------
+       DATA DIVISION.
+      *-------------
+
+       FILE SECTION.
+       FD  GAME-RECORDS
+           RECORD CONTAINS 80 CHARACTERS
+      *   LABEL RECORDS ARE STANDARD
+           RECORDING MODE IS F.
+      *    RECORDING MODE IS V.
+      *FD  GAME-RECORDS RECORDING MODE V.
+       01  GAME-BOARD-O.
+           02  SHOTS-O PIC 9(3).
+           02  DIMENSION-O PIC 9(03).
+           02  TRIES-O PIC 9(3).
+
+       01  SUB-LOCATION-O.
+           02 SUB-X-POS-O PIC 9(3).
+           02 SUB-Y-POS-O PIC 9(3).
+           02 SUB-Z-POS-O PIC 9(3).
+
+       WORKING-STORAGE SECTION.
+
+       01  GAME-BOARD.
+      * KEEP DIMENSION LESS THAN 100
+           02  SHOTS PIC 9(3).
+           02  DIMENSION PIC 9(03).
+           02  TRIES  PIC 9(3).
+
+       01  SUB-LOCATION.
+           02 SUB-X-POS PIC 9(3).
+           02 SUB-Y-POS PIC 9(3).
+           02 SUB-Z-POS PIC 9(3).
+
+       01  TORPEDO-CORDINATES.
+           02  T-X-POS PIC 9(3).
+           02  T-Y-POS PIC 9(3).
+           02  T-Z-POS PIC 9(3).
+
+       01  SHOT-CORDINATES.
+           02  SHOT-X PIC 9(3).
+           02  SHOT-Y PIC 9(3).
+           02  SHOT-Z PIC 9(3).
+
+
+      *------------------
+       PROCEDURE DIVISION.
+      *------------------
+
+
+       OPEN-FILES.
+           OPEN INPUT GAME-RECORDS.
+
+
+
+      * END OF PROGRAM
+
+       WRITE-RECORD.
+           CLOSE GAME-RECORDS
+           OPEN OUTPUT GAME-RECORDS
+           MOVE GAME-BOARD TO GAME-BOARD-O
+           MOVE SUB-LOCATION TO SUB-LOCATION-O
+           WRITE GAME-BOARD-O
+           WRITE SUB-LOCATION-O
+           END-WRITE.
+
+       CLOSE-FILE.
+           CLOSE GAME-RECORDS.
+
+       GAME-STOP.
+           STOP RUN.           

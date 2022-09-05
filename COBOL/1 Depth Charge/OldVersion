@@ -1,0 +1,299 @@
+      *-----------------------
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.    RUNDEPTH.
+      *-----------------------
+       AUTHOR. James Roesemann.
+      * MODIDFIED FORM A PROGRAM WRITTEN BY Dana Noftle.
+      DATE-WRITTEN. MARCH 26TH 2022
+
+      *--------------------
+       ENVIRONMENT DIVISION.
+      *--------------------
+
+      *******************************************************
+      * This program is a recreation of the depth charge     *
+      * game published in the NOV - DEC 1974 issue of        *
+      * Creative Computing Magazine.                         *
+      * I will change this program later to accept user input*
+      * For now i will just use a default value of 10        *
+      * Aactually, i guess i need continous user input       *
+      * maybe i just need to set this up to work through an  *
+      * ispf pannel                                          *
+      * if i really want to run this program in cobol i'll   *
+      * need to create a seprate member/dataset as working   *
+      * storage untill the game is over                      *
+      * NEED TO TEST WHEN IF THE LINE EVEN EXISTS IN GAME-RECORDS*
+      *    This program accepts input and displays output    *
+      *    This program accepts input and displays output    *
+      *    This program accepts input and displays output    *
+      *    This program accepts input and displays output    *
+      * 'IN ORDER TO PLAY THIS GAME YOU MUST PASS THE'
+      *'PROGRAM 3 NUMBER VALUES BY CHANGING THE VALUE OF'
+      *'PARM IN THE CORRISPONDING JCL FILE. ONLY VALUES'
+      *'FROM 1 TO 100 WILL BE ACCEPTED.'
+      *    REMEBER TO DELETE THE .DATA FILE TO RESTART THE GAME
+      *******************************************************
+
+       CONFIGURATION SECTION.
+
+      * SPECIAL-NAMES.
+      *     SYSIN IS USER-INPUT.
+
+      *--------------------
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT GAME-RECORDS ASSIGN TO GAMEREC.
+      *    ORGANIZATION IS LINE SEQUENTIAL
+      *    ACCESS IS SEQUENTIAL.
+
+      *-------------
+       DATA DIVISION.
+      *-------------
+
+       FILE SECTION.
+       FD  GAME-RECORDS
+           RECORD CONTAINS 80 CHARACTERS
+      *   LABEL RECORDS ARE STANDARD
+           RECORDING MODE IS F.
+      *    RECORDING MODE IS V.
+      *FD  GAME-RECORDS RECORDING MODE V.
+       01  GAME-BOARD-O.
+           02  SHOTS-O PIC 9(3).
+           02  DIMENSION-O PIC 9(03).
+           02  TRIES-O PIC 9(3).
+
+       01  SUB-LOCATION-O.
+           02 SUB-X-POS-O PIC 9(3).
+           02 SUB-Y-POS-O PIC 9(3).
+           02 SUB-Z-POS-O PIC 9(3).
+
+       WORKING-STORAGE SECTION.
+
+       01  GAME-BOARD.
+      * KEEP DIMENSION LESS THAN 100
+           02  SHOTS PIC 9(3).
+           02  DIMENSION PIC 9(03).
+           02  TRIES  PIC 9(3).
+
+       01  SUB-LOCATION.
+           02 SUB-X-POS PIC 9(3).
+           02 SUB-Y-POS PIC 9(3).
+           02 SUB-Z-POS PIC 9(3).
+
+       01  TORPEDO-CORDINATES.
+           02  T-X-POS PIC 9(3).
+           02  T-Y-POS PIC 9(3).
+           02  T-Z-POS PIC 9(3).
+
+       01  SHOT-CORDINATES.
+           02  SHOT-X PIC 9(3).
+           02  SHOT-Y PIC 9(3).
+           02  SHOT-Z PIC 9(3).
+
+
+
+
+
+
+
+
+
+
+      *------------------
+       PROCEDURE DIVISION.
+      *------------------
+
+
+       OPEN-FILES.
+           OPEN INPUT GAME-RECORDS.
+
+
+       EVALUATE-GAME-IF-GAME-STARTED.
+           READ GAME-RECORDS
+           AT END
+           GO TO EXPLAIN-SETUP
+           NOT AT END
+           MOVE GAME-BOARD-O IN GAME-RECORDS TO GAME-BOARD
+           MOVE SUB-LOCATION-O IN GAME-RECORDS TO SUB-LOCATION
+           END-READ.
+           IF DIMENSION-O = 0
+           GO TO GAME-START
+           ELSE
+           GO TO EVALUATE-INPUT.
+
+       EXPLAIN-SETUP.
+           DISPLAY 'IN ORDER TO PLAY THIS GAME YOU MUST PASS THE'
+           DISPLAY 'PROGRAM NUMBER VALUES BY CHANGING THE SYSIN DD'
+           DISPLAY 'STATMENT IN THE CORRISPONDING JCL FILE. '
+           DISPLAY 'ONLY VALUES FROM 1 TO 100 WILL BE ACCEPTED.'
+           DISPLAY 'ONLY 1 VALUE PER LINE'
+           DISPLAY 'EXTRA LINES WILL BE DISCARDED'
+           DISPLAY 'START BY PROVIDING 1 VALUE.'
+           MOVE 0 TO DIMENSION
+      *    REMEBER TO DELETE THE .DATA FILE TO RESTART THE GAME
+           GO TO WRITE-RECORD.
+
+       EVALUATE-INPUT.
+      * I STILL NEED TO FIGURE OUT HOW TO MAKE SURE I GET THE RIGHT KIND
+      * OF VARIABLES, NOT JUST THE RIGHT RANGE
+      *     ACCEPT T-X-POS FROM USER-INPUT.
+           ACCEPT T-X-POS.
+           IF T-X-POS  <  1 OR > 100
+           GO TO GIVEN-WRONG-INPUT
+           ELSE
+      *     ACCEPT T-Y-POS FROM USER-INPUT.
+           ACCEPT T-Y-POS.
+           IF T-Y-POS  <  1 OR > 100
+           GO TO GIVEN-WRONG-INPUT
+           ELSE
+      *     ACCEPT T-Z-POS FROM USER-INPUT.
+           ACCEPT T-Z-POS.
+           IF T-Z-POS  <  1 OR > 100
+           GO TO GIVEN-WRONG-INPUT
+           ELSE GO TO NEXT-TURN.
+
+
+       GAME-START.
+      *     ACCEPT DIMENSION FROM USER-INPUT.
+           ACCEPT DIMENSION.
+      *TESTING
+           IF DIMENSION > 100 DISPLAY 'GREATER TAHT 100'
+           END-IF
+           IF DIMENSION IS EQUAL TO 170 DISPLAY 'EQUAL TO 170.'
+           END-IF
+
+           IF DIMENSION < 1 OR DIMENSION > 100 GO TO GIVEN-WRONG-INPUT
+           ELSE
+           COMPUTE SHOTS = FUNCTION LOG(DIMENSION) / FUNCTION LOG(2).
+           ADD 1 TO SHOTS.
+           DISPLAY '            DEPTH CHARGE GAME'.
+           DISPLAY 'YOU ARE THE CAPTIN OF THE DESTROYER USS DIGITAL'
+           DISPLAY 'AN ENEMY SUB HAS BEEN CAUSEING YOU TROUBLE. YOUR'
+           DISPLAY 'MISSION IS TO DESTROY IT.'
+           DISPLAY 'YOU HAVE ' SHOTS ' SHOTS'
+           DISPLAY 'SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO'
+           DISPLAY 'OF NUMBERS -- THE FIRST TWO ARE THE SURFACE'
+           DISPLAY 'CORDINATES. THE THIRD IS THE DEPTH.'
+           DISPLAY '                 GOOD LUCK'
+           GO TO GENERATE-SUB-LOCATION.
+
+       GENERATE-SUB-LOCATION.
+           COMPUTE SUB-X-POS = DIMENSION * FUNCTION RANDOM.
+           COMPUTE SUB-Y-POS = DIMENSION * FUNCTION RANDOM.
+           COMPUTE SUB-Z-POS = DIMENSION * FUNCTION RANDOM.
+      *     MOVE FUNCTION INTEGER(SUB-X-POS) TO SUB-X-POS.
+      *     MOVE FUNCTION INTEGER(SUB-Y-POS) TO SUB-Y-POS.
+      *     MOVE FUNCTION INTEGER(SUB-Z-POS) TO SUB-Z-POS.
+           GO TO WRITE-RECORD.
+
+
+       GIVEN-WRONG-INPUT.
+           DISPLAY 'YOU HAVE GIVE A WRONG VALUE OR VALUES.'
+           DISPLAY 'PLEASE ONLY ENTER VALUES BETWEEN 1 AND 100.'
+           DISPLAY 'ONE PER LINE.'
+      *TEST
+           DISPLAY DIMENSION
+           GO TO CLOSE-FILE.
+
+       NEXT-TURN.
+           ADD 1 TO TRIES
+           DISPLAY 'TRIAL #' SHOTS ' ' T-X-POS ' ' T-Y-POS ' ' T-Z-POS
+           COMPUTE SHOT-X = FUNCTION ABS(SUB-X-POS - T-X-POS)
+           COMPUTE SHOT-Y = FUNCTION ABS(SUB-Y-POS - T-Y-POS)
+           COMPUTE SHOT-Z = FUNCTION ABS(SUB-Z-POS - T-Z-POS)
+           COMPUTE SHOT-X = SHOT-X + SHOT-Y + SHOT-Z
+           IF SHOT-X IS EQUAL TO 0
+           GO TO ENEMY-HIT
+           ELSE
+      *DO SOME MATH HERE. PROBALY TO ANOTHER PARAGRAPH WITH SOANER STUFF
+      *NEED TO FIGURE OUT THIS GUS SPAGETTI CODE. JUMPS ARROUND ALOT.
+           GO TO SONAR.
+
+       SONAR.
+           DISPLAY 'SONAR REPORTS SHOT WAS' WITH NO ADVANCING
+           IF T-Y-POS > SUB-Y-POS DISPLAY 'NORTH' WITH NO ADVANCING
+           IF T-Y-POS < SUB-Y-POS DISPLAY 'SOUTH' WITH NO ADVANCING
+           IF T-X-POS > SUB-X-POS DISPLAY 'EAST' WITH NO ADVANCING
+           IF T-X-POS < SUB-X-POS DISPLAY 'WEST' WITH NO ADVANCING
+           IF (T-X-POS NOT = SUB-Y-POS OR T-X-POS NOT = SUB-X-POS)
+           THEN DISPLAY ' AND ' WITH NO ADVANCING
+           IF T-Z-POS > SUB-Z-POS DISPLAY 'TOO LOW' WITH NO ADVANCING
+           IF T-Z-POS < SUB-Z-POS DISPLAY 'TOO HIGH' WITH NO ADVANCING
+           IF T-Z-POS IS EQUAL TO SUB-Z-POS DISPLAY 'DEPTH OK'
+           WITH NO ADVANCING
+           DISPLAY '.'
+           SUBTRACT 1 FROM SHOTS.
+           IF SHOTS IS EQUAL TO 0 THEN GO TO ABANDON-SHIP
+           ELSE GO TO WRITE-RECORD.
+
+
+       ABANDON-SHIP.
+           DISPLAY 'YOU HAVE BEEN TORPEDOED! ABANDON SHIP!'
+           DISPLAY 'THE SUBMARINE WAS AT ' SUB-X-POS WITH NO ADVANCING
+           DISPLAY ' ' SUB-Y-POS ' ' SUB-Z-POS
+           GO TO GAME-OVER.
+
+
+       ENEMY-HIT.
+           DISPLAY 'B O O M !  YOU FOUND IT IN ' TRIES 'TRIES.'.
+
+       GAME-OVER.
+      *SEE IF I CAN CHANGE THIS LATER TO RESET THE GAME. MAYBE WITH
+      * THE PARAM VALUE. OR BY PASSING A NUMBERIC VALUE. OR AUTOMATICLY
+      * DELETE THE DATASET BY PASSING A RETURNCODE OF 42.
+           DISPLAY 'DELETE &SYSUID..DEPTHC.DATA TO PLAY AGAIN.'.
+           GO TO CLOSE-FILE.
+
+
+
+       WRITE-RECORD.
+           CLOSE GAME-RECORDS
+           OPEN OUTPUT GAME-RECORDS
+           MOVE GAME-BOARD TO GAME-BOARD-O
+           MOVE SUB-LOCATION TO SUB-LOCATION-O
+           WRITE GAME-BOARD-O
+           WRITE SUB-LOCATION-O
+           END-WRITE.
+
+       CLOSE-FILE.
+           CLOSE GAME-RECORDS.
+
+       GAME-STOP.
+           STOP RUN.
+
+
+
+      * NEEDS TO EXPLAIN WHAT VALUES TO PASSED THROUGH THE JCL WHEN.
+      * THE DATA FILE IS EMPTY.
+      * THEN I T NEEDS TO BE ABLE TO TELL THAT THE DIMESNION IS NOT SET
+      * AND CONVEY THAT IT NTEEDSD THAT.
+      *THEN BECAUE THATS 1 VALUE AND EVERYU OTHER TURN NEEDS 3 VALUES.
+      * I NEED TO CHECK THAT 3 APROPROIATE VALUES HAVE BEEN PASSED
+      * AT THE START OF EVERY ROUND.
+      * DATA CAN BE PASSED TO THE PROGRAM WITH THE PARM OR SYSIN DD
+      * AREAS OF THE JCL FILE WHEN USING SYSIN DD VALUES MUST BE ON
+      * INDIVISUAL LINES.
+
+
+      * FOR SOME REASON IT'S NOT STORING THE CORRECT VALUE.
+      *INSPECT PIC VALUES.
+
+
+      *2 THINGS ARE WROG. ITST NOT EVALUATING THE FIRST VALUE PROPERLY.
+      * ITS EITHER GREATER THATN OR LESS THAN BUT IM NOT SURE WITCH
+      * THAT EVENTUALLY WORKS FOR SOME REASON BUT THEN
+      * THE LINE THAT GENERATES THE SHOT SODENT WOKR RIGHT.
+      *PROBABLY BECAUSE MATH DOSENT WORK THE SAME HERE. I NEED TO DEFIGN
+      *FLOATING VLAUES. FIX IT TOMORROW.
+
+      *FOR SOME RREASON WHEN I REFRENCE DIMENSION OR OR 2 TIME *WHICH)
+      * THE BOOL CONDITIONS EVALUATE RIGHT. BUT THE FOIRST 2
+      *DON;T FOR SOME REASON.
+
+
+      *OK IF CONDIOTIONS NEED TO END WITH END IF. GO BACK AND FIX THE REST
+      * BURT FOR SOME REASON IT THINKS 17 IS GREATER THAN 100. WHY?
+      *OK. SO WHATS HAPPENING IS ITS MOVING ALL THE STUFF TO THE LEFT.
+      *LEAVING ZEROS AT THE END. MAYBE CHANGE AEROS TO SPACES.
+      *MAYBE THE WAY TO GO IS TO ACCEPT IT AT ALPHANUUMBERIC, THEN
+      *USE IT AS STRAIGNT NUMBEIC
