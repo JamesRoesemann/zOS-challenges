@@ -1,0 +1,584 @@
+1667363870338	geckodriver	INFO	Listening on 127.0.0.1:51682
+1667363873312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilesoTsWv"
+1667363873793	Marionette	INFO	Marionette enabled
+1667363873802	Marionette	INFO	Listening on port 51694
+Read port: 51694
+WebDriver BiDi listening on ws://127.0.0.1:51683
+1667363874231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilesoTsWv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51683/devtools/browser/4820e100-cd04-4745-84a2-15ccf63cdbd3
+1667363887565	Marionette	INFO	Stopped listening on port 51694
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667363919724	geckodriver	INFO	Listening on 127.0.0.1:51977
+1667363922748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileC9xaic"
+1667363923346	Marionette	INFO	Marionette enabled
+1667363923357	Marionette	INFO	Listening on port 51990
+Read port: 51990
+WebDriver BiDi listening on ws://127.0.0.1:51978
+1667363923739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileC9xaic\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51978/devtools/browser/36c5e823-4543-4903-be0e-00fdd0101ba1
+1667364051321	geckodriver	INFO	Listening on 127.0.0.1:52196
+1667364054394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileuiUyhD"
+1667364054789	Marionette	INFO	Marionette enabled
+1667364054796	Marionette	INFO	Listening on port 52207
+Read port: 52207
+WebDriver BiDi listening on ws://127.0.0.1:52197
+1667364054917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileuiUyhD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52197/devtools/browser/1b220e97-3d91-4f5d-8610-b259d2f53338
+1667364061187	Marionette	INFO	Stopped listening on port 52207
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 11064, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667364105030	geckodriver	INFO	Listening on 127.0.0.1:52357
+1667364108087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKU8yX1"
+1667364108485	Marionette	INFO	Marionette enabled
+1667364108492	Marionette	INFO	Listening on port 52368
+Read port: 52368
+WebDriver BiDi listening on ws://127.0.0.1:52358
+1667364108612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKU8yX1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52358/devtools/browser/f654d011-5593-46f4-a749-5885829ca7db
+1667364516948	geckodriver	INFO	Listening on 127.0.0.1:53197
+1667364520009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileGdgIq9"
+1667364520402	Marionette	INFO	Marionette enabled
+1667364520408	Marionette	INFO	Listening on port 53209
+Read port: 53209
+WebDriver BiDi listening on ws://127.0.0.1:53198
+1667364520528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileGdgIq9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53198/devtools/browser/99e78fdf-9dd5-446d-ab7c-980e3cc6d3b8
+1667364610284	geckodriver	INFO	Listening on 127.0.0.1:53268
+1667364613351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilenFIpg1"
+1667364613754	Marionette	INFO	Marionette enabled
+1667364613760	Marionette	INFO	Listening on port 53279
+Read port: 53279
+WebDriver BiDi listening on ws://127.0.0.1:53269
+1667364613879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilenFIpg1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53269/devtools/browser/293bbc72-cba0-4d09-b8f0-5e2b0e8cecfa
+1667364655956	geckodriver	INFO	Listening on 127.0.0.1:53830
+1667364659012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileUWygwT"
+1667364659405	Marionette	INFO	Marionette enabled
+1667364659411	Marionette	INFO	Listening on port 53842
+Read port: 53842
+WebDriver BiDi listening on ws://127.0.0.1:53831
+1667364659533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileUWygwT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53831/devtools/browser/7f96ec1c-ef09-439b-958c-039cfca9fe0f
+1667364670914	Marionette	INFO	Stopped listening on port 53842
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667364752840	geckodriver	INFO	Listening on 127.0.0.1:54096
+1667364755915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilea6wVz6"
+1667364756319	Marionette	INFO	Marionette enabled
+1667364756325	Marionette	INFO	Listening on port 54107
+Read port: 54107
+WebDriver BiDi listening on ws://127.0.0.1:54097
+1667364756447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilea6wVz6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54097/devtools/browser/a6c9f549-6cf1-41bf-ad81-04d8d6581225
+1667364864016	geckodriver	INFO	Listening on 127.0.0.1:54455
+1667364867066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54456" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile95JwMM"
+1667364867465	Marionette	INFO	Marionette enabled
+1667364867471	Marionette	INFO	Listening on port 54466
+Read port: 54466
+WebDriver BiDi listening on ws://127.0.0.1:54456
+1667364867592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile95JwMM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54456/devtools/browser/4f1e3795-0f7d-487e-b9bb-44d6599a40c5
+1667365002761	geckodriver	INFO	Listening on 127.0.0.1:54593
+1667365005817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54594" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileC6UI7H"
+1667365006210	Marionette	INFO	Marionette enabled
+1667365006217	Marionette	INFO	Listening on port 54604
+Read port: 54604
+WebDriver BiDi listening on ws://127.0.0.1:54594
+1667365006343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileC6UI7H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54594/devtools/browser/6d96eb73-8f45-4bf0-a744-1922cab56934
+1667365031004	geckodriver	INFO	Listening on 127.0.0.1:54698
+1667365034063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilecZuLt7"
+1667365034457	Marionette	INFO	Marionette enabled
+1667365034463	Marionette	INFO	Listening on port 54709
+Read port: 54709
+WebDriver BiDi listening on ws://127.0.0.1:54699
+1667365034583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilecZuLt7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54699/devtools/browser/8397be03-7b19-4009-a7c7-a15a5e2e5260
+1667365062515	Marionette	INFO	Stopped listening on port 54709
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667365134979	geckodriver	INFO	Listening on 127.0.0.1:55303
+1667365138029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55304" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilelKJpyN"
+1667365138424	Marionette	INFO	Marionette enabled
+1667365138430	Marionette	INFO	Listening on port 55314
+Read port: 55314
+WebDriver BiDi listening on ws://127.0.0.1:55304
+1667365138551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilelKJpyN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55304/devtools/browser/56ade601-1ac3-4f5f-b398-ec8439b3cf48
+1667365231923	geckodriver	INFO	Listening on 127.0.0.1:55737
+1667365234961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55738" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWnjMCI"
+1667365235362	Marionette	INFO	Marionette enabled
+1667365235368	Marionette	INFO	Listening on port 55748
+Read port: 55748
+WebDriver BiDi listening on ws://127.0.0.1:55738
+1667365235488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWnjMCI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55738/devtools/browser/ef68a1a2-78cd-4b2a-8729-5edcd620e148
+1667365424669	geckodriver	INFO	Listening on 127.0.0.1:55864
+1667365427736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilevBsHV8"
+1667365428137	Marionette	INFO	Marionette enabled
+1667365428143	Marionette	INFO	Listening on port 55875
+Read port: 55875
+WebDriver BiDi listening on ws://127.0.0.1:55865
+1667365428265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilevBsHV8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55865/devtools/browser/7e4f9141-a884-42e1-b0f4-0bb7f7735f3a
+1667365475422	geckodriver	INFO	Listening on 127.0.0.1:56585
+1667365478513	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56586" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegPSZCT"
+1667365478913	Marionette	INFO	Marionette enabled
+1667365478919	Marionette	INFO	Listening on port 56597
+Read port: 56597
+WebDriver BiDi listening on ws://127.0.0.1:56586
+1667365479042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegPSZCT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56586/devtools/browser/3bb0e2d6-6cbb-4f2f-9664-3a4426c1dc9b
+1667365524034	Marionette	INFO	Stopped listening on port 56597
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667365658429	geckodriver	INFO	Listening on 127.0.0.1:57343
+1667365661460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileCFfZYP"
+1667365661861	Marionette	INFO	Marionette enabled
+1667365661867	Marionette	INFO	Listening on port 57354
+Read port: 57354
+WebDriver BiDi listening on ws://127.0.0.1:57344
+1667365661986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileCFfZYP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57344/devtools/browser/f50ee7d9-1b52-4c26-9234-796b3e7b708b
+1667365733536	geckodriver	INFO	Listening on 127.0.0.1:57443
+1667365736574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilerSeYrA"
+1667365736977	Marionette	INFO	Marionette enabled
+1667365736983	Marionette	INFO	Listening on port 57454
+Read port: 57454
+WebDriver BiDi listening on ws://127.0.0.1:57444
+1667365737102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilerSeYrA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57444/devtools/browser/44e944f3-4a03-4e9d-bce4-ce8dc2f52cb4
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667365794966	geckodriver	INFO	Listening on 127.0.0.1:57554
+1667365797986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKC0tDS"
+1667365798376	Marionette	INFO	Marionette enabled
+1667365798382	Marionette	INFO	Listening on port 57565
+Read port: 57565
+WebDriver BiDi listening on ws://127.0.0.1:57555
+1667365798502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKC0tDS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57555/devtools/browser/a8af4dd9-7e78-437d-b3a1-fd99c00f17cc
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667365866205	geckodriver	INFO	Listening on 127.0.0.1:57759
+1667365869268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57760" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileULeqhQ"
+1667365869662	Marionette	INFO	Marionette enabled
+1667365869669	Marionette	INFO	Listening on port 57770
+Read port: 57770
+WebDriver BiDi listening on ws://127.0.0.1:57760
+1667365869793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileULeqhQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57760/devtools/browser/fde2770e-7dbc-4734-bd3a-03912465b48a
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667365886441	geckodriver	INFO	Listening on 127.0.0.1:57881
+1667365889487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileVJvwJY"
+1667365889901	Marionette	INFO	Marionette enabled
+1667365889908	Marionette	INFO	Listening on port 57892
+Read port: 57892
+WebDriver BiDi listening on ws://127.0.0.1:57882
+1667365890029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileVJvwJY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57882/devtools/browser/6d9fc901-5021-468e-a3fd-0270de6cb049
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667365960224	geckodriver	INFO	Listening on 127.0.0.1:58079
+1667365963286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58080" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilewGJu20"
+1667365963703	Marionette	INFO	Marionette enabled
+1667365963709	Marionette	INFO	Listening on port 58089
+Read port: 58089
+WebDriver BiDi listening on ws://127.0.0.1:58080
+1667365963826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilewGJu20\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58080/devtools/browser/06b63a53-50d3-41bc-a228-f033e7373f35
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667365988207	geckodriver	INFO	Listening on 127.0.0.1:58235
+1667365991262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58236" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile7cabNo"
+1667365991662	Marionette	INFO	Marionette enabled
+1667365991668	Marionette	INFO	Listening on port 58247
+Read port: 58247
+WebDriver BiDi listening on ws://127.0.0.1:58236
+1667365991788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile7cabNo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58236/devtools/browser/8082ec6c-ff9a-4bac-be20-71bc1d7e0310
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667366499685	geckodriver	INFO	Listening on 127.0.0.1:58537
+1667366502738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58538" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileAOmigQ"
+1667366503138	Marionette	INFO	Marionette enabled
+1667366503145	Marionette	INFO	Listening on port 58550
+Read port: 58550
+WebDriver BiDi listening on ws://127.0.0.1:58538
+1667366503264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileAOmigQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58538/devtools/browser/1b1393bc-20a8-4257-84a1-32e52cbea2e3
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667366611111	geckodriver	INFO	Listening on 127.0.0.1:59273
+1667366614170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile69ZI8U"
+1667366614575	Marionette	INFO	Marionette enabled
+1667366614581	Marionette	INFO	Listening on port 59284
+Read port: 59284
+WebDriver BiDi listening on ws://127.0.0.1:59274
+1667366614698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile69ZI8U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59274/devtools/browser/6bdced21-7d51-40f7-9e42-b1cd2e23d7e6
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1667367635344	geckodriver	INFO	Listening on 127.0.0.1:60339
+1667367638414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60340" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegxucEx"
+1667367638803	Marionette	INFO	Marionette enabled
+1667367638809	Marionette	INFO	Listening on port 60351
+Read port: 60351
+WebDriver BiDi listening on ws://127.0.0.1:60340
+1667367638931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegxucEx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60340/devtools/browser/e9bdafc2-7bf1-4750-be84-28279c3f7e2b
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667367917266	geckodriver	INFO	Listening on 127.0.0.1:60620
+1667367920329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60621" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilevUalYL"
+1667367920735	Marionette	INFO	Marionette enabled
+1667367920741	Marionette	INFO	Listening on port 60632
+Read port: 60632
+WebDriver BiDi listening on ws://127.0.0.1:60621
+1667367920863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilevUalYL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60621/devtools/browser/ad87a822-1770-463d-9695-698a69aa3ab9
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667368039786	Marionette	INFO	Stopped listening on port 60632
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667368528159	geckodriver	INFO	Listening on 127.0.0.1:61507
+1667368531224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61508" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilePCIXGH"
+1667368531620	Marionette	INFO	Marionette enabled
+1667368531627	Marionette	INFO	Listening on port 61518
+Read port: 61518
+WebDriver BiDi listening on ws://127.0.0.1:61508
+1667368531745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilePCIXGH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61508/devtools/browser/134ab199-5479-445d-b679-c35f304025f4
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667368561621	geckodriver	INFO	Listening on 127.0.0.1:62123
+1667368564655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62124" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileQ4UKgF"
+1667368565059	Marionette	INFO	Marionette enabled
+1667368565065	Marionette	INFO	Listening on port 62134
+Read port: 62134
+WebDriver BiDi listening on ws://127.0.0.1:62124
+1667368565187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileQ4UKgF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62124/devtools/browser/e1aacf9d-e3fa-4e5f-9b59-beb8f4894bb7
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667368583583	Marionette	INFO	Stopped listening on port 62134
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667369003639	geckodriver	INFO	Listening on 127.0.0.1:62683
+1667369006674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilewcLvH1"
+1667369007133	Marionette	INFO	Marionette enabled
+1667369007140	Marionette	INFO	Listening on port 62694
+Read port: 62694
+WebDriver BiDi listening on ws://127.0.0.1:62684
+1667369007930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667369064771	geckodriver	INFO	Listening on 127.0.0.1:62717
+1667369067802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62718" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKJphTi"
+1667369068267	Marionette	INFO	Marionette enabled
+1667369068274	Marionette	INFO	Listening on port 62728
+Read port: 62728
+WebDriver BiDi listening on ws://127.0.0.1:62718
+1667369068479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667369228125	geckodriver	INFO	Listening on 127.0.0.1:62822
+1667369231189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileDrVYBu"
+1667369231628	Marionette	INFO	Marionette enabled
+1667369231635	Marionette	INFO	Listening on port 62833
+Read port: 62833
+WebDriver BiDi listening on ws://127.0.0.1:62823
+1667369231775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileDrVYBu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62823/devtools/browser/433caebd-ae1a-4f78-8b73-5da899832adf
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667369258656	geckodriver	INFO	Listening on 127.0.0.1:63215
+1667369261708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63216" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileoxxKIq"
+1667369262112	Marionette	INFO	Marionette enabled
+1667369262119	Marionette	INFO	Listening on port 63226
+Read port: 63226
+WebDriver BiDi listening on ws://127.0.0.1:63216
+1667369262241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileoxxKIq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63216/devtools/browser/324c1142-f730-459a-bbfa-19dfd97c55f8
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667369374285	geckodriver	INFO	Listening on 127.0.0.1:63504
+1667369377345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilemcSUBx"
+1667369377756	Marionette	INFO	Marionette enabled
+1667369377762	Marionette	INFO	Listening on port 63515
+Read port: 63515
+WebDriver BiDi listening on ws://127.0.0.1:63505
+1667369377909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilemcSUBx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63505/devtools/browser/5162ca01-ca2c-4988-8855-99b9a88afe78
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667369447192	geckodriver	INFO	Listening on 127.0.0.1:64263
+1667369450237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64264" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileE6M3f5"
+1667369450748	Marionette	INFO	Marionette enabled
+1667369450755	Marionette	INFO	Listening on port 64274
+Read port: 64274
+WebDriver BiDi listening on ws://127.0.0.1:64264
+1667369450882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667369483705	geckodriver	INFO	Listening on 127.0.0.1:64292
+1667369486740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWee4wv"
+1667369487143	Marionette	INFO	Marionette enabled
+1667369487149	Marionette	INFO	Listening on port 64303
+Read port: 64303
+WebDriver BiDi listening on ws://127.0.0.1:64293
+1667369487275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWee4wv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64293/devtools/browser/d28173b9-f630-4485-93b3-98d58b80cd72
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667369559897	geckodriver	INFO	Listening on 127.0.0.1:64475
+1667369562948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64476" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilemzNKmL"
+1667369563344	Marionette	INFO	Marionette enabled
+1667369563350	Marionette	INFO	Listening on port 64485
+Read port: 64485
+WebDriver BiDi listening on ws://127.0.0.1:64476
+1667369563471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilemzNKmL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64476/devtools/browser/5de8774f-395e-48e1-a9e7-7f54e385a1d5
+1667369602491	geckodriver	INFO	Listening on 127.0.0.1:64535
+1667369605529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64536" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilejVER1F"
+1667369605930	Marionette	INFO	Marionette enabled
+1667369605936	Marionette	INFO	Listening on port 64545
+Read port: 64545
+WebDriver BiDi listening on ws://127.0.0.1:64536
+1667369606054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilejVER1F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64536/devtools/browser/0aecbe80-354a-44d3-a575-b1334e00666d
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667370265208	geckodriver	INFO	Listening on 127.0.0.1:60050
+1667370268262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile0IRKHQ"
+1667370268664	Marionette	INFO	Marionette enabled
+1667370268670	Marionette	INFO	Listening on port 60060
+Read port: 60060
+WebDriver BiDi listening on ws://127.0.0.1:60051
+1667370268793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile0IRKHQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60051/devtools/browser/6af51292-4e2e-4153-892a-5d7747ec64c2
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667370399887	geckodriver	INFO	Listening on 127.0.0.1:60514
+1667370402942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilerSAJAA"
+1667370403341	Marionette	INFO	Marionette enabled
+1667370403348	Marionette	INFO	Listening on port 60524
+Read port: 60524
+WebDriver BiDi listening on ws://127.0.0.1:60515
+1667370403469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilerSAJAA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60515/devtools/browser/e72c5f9d-96d5-4d90-950d-4c071458bfb0
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667405884688	geckodriver	INFO	Listening on 127.0.0.1:65258
+1667405887788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65259" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileBR9m9U"
+1667405888718	Marionette	INFO	Marionette enabled
+1667405888726	Marionette	INFO	Listening on port 65268
+Read port: 65268
+WebDriver BiDi listening on ws://127.0.0.1:65259
+1667405888907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileBR9m9U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65259/devtools/browser/a680725a-1bb4-434c-be70-290dfae0e326
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667405916368	geckodriver	INFO	Listening on 127.0.0.1:65363
+1667405919444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile3xdTig"
+1667405919861	Marionette	INFO	Marionette enabled
+1667405919867	Marionette	INFO	Listening on port 65373
+Read port: 65373
+WebDriver BiDi listening on ws://127.0.0.1:65364
+1667405919992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile3xdTig\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65364/devtools/browser/573f5db6-39e0-4e7c-b093-2c84a8d89553
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667405936801	geckodriver	INFO	Listening on 127.0.0.1:65465
+1667405939870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65466" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileSY0lMA"
+1667405940297	Marionette	INFO	Marionette enabled
+1667405940303	Marionette	INFO	Listening on port 65475
+Read port: 65475
+WebDriver BiDi listening on ws://127.0.0.1:65466
+1667405940437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileSY0lMA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65466/devtools/browser/ef8aa040-4228-4082-a3df-d08b3e4e0b25
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667406212410	geckodriver	INFO	Listening on 127.0.0.1:49234
+1667406215451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49235" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofiledpy6JK"
+1667406215862	Marionette	INFO	Marionette enabled
+1667406215868	Marionette	INFO	Listening on port 49244
+Read port: 49244
+WebDriver BiDi listening on ws://127.0.0.1:49235
+1667406215997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofiledpy6JK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49235/devtools/browser/8982081e-52a8-45b4-8ba3-9fca74e14e25
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667406279741	geckodriver	INFO	Listening on 127.0.0.1:49975
+1667406282787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegIYHG1"
+1667406283191	Marionette	INFO	Marionette enabled
+1667406283198	Marionette	INFO	Listening on port 49985
+Read port: 49985
+WebDriver BiDi listening on ws://127.0.0.1:49976
+1667406283321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilegIYHG1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49976/devtools/browser/0b96320e-4e14-4ecd-9a24-caf63ae781c7
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667408786506	geckodriver	INFO	Listening on 127.0.0.1:50849
+1667408789582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50850" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileee0KBP"
+1667408789982	Marionette	INFO	Marionette enabled
+1667408789988	Marionette	INFO	Listening on port 50859
+Read port: 50859
+WebDriver BiDi listening on ws://127.0.0.1:50850
+1667408790114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileee0KBP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50850/devtools/browser/fdd4817a-6732-4937-bacb-f16ad4f76b1f
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667408798891	Marionette	INFO	Stopped listening on port 50859
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667408848226	geckodriver	INFO	Listening on 127.0.0.1:51062
+1667408851292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileduDuQB"
+1667408851717	Marionette	INFO	Marionette enabled
+1667408851723	Marionette	INFO	Listening on port 51084
+Read port: 51084
+WebDriver BiDi listening on ws://127.0.0.1:51063
+1667408851848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileduDuQB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51063/devtools/browser/0d486712-85e5-4fff-b8e7-043047ea5417
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667408868782	geckodriver	INFO	Listening on 127.0.0.1:51687
+1667408871811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51688" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileROAngc"
+1667408872222	Marionette	INFO	Marionette enabled
+1667408872229	Marionette	INFO	Listening on port 51697
+Read port: 51697
+WebDriver BiDi listening on ws://127.0.0.1:51688
+1667408872355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667408893944	geckodriver	INFO	Listening on 127.0.0.1:51708
+1667408897018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileMfnwN5"
+1667408897433	Marionette	INFO	Marionette enabled
+1667408897439	Marionette	INFO	Listening on port 51718
+Read port: 51718
+WebDriver BiDi listening on ws://127.0.0.1:51709
+1667408897561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileMfnwN5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51709/devtools/browser/7adc5d96-8e55-4167-86b8-ad9aeadaab75
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667408927690	geckodriver	INFO	Listening on 127.0.0.1:51836
+1667408930749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileMZd0LB"
+1667408931147	Marionette	INFO	Marionette enabled
+1667408931153	Marionette	INFO	Listening on port 51846
+Read port: 51846
+WebDriver BiDi listening on ws://127.0.0.1:51837
+1667408931282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileMZd0LB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51837/devtools/browser/28a2b02b-ca41-4476-9330-7e82a47f82db
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667408963593	geckodriver	INFO	Listening on 127.0.0.1:52518
+1667408966668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileJk9RNZ"
+1667408967078	Marionette	INFO	Marionette enabled
+1667408967084	Marionette	INFO	Listening on port 52528
+Read port: 52528
+WebDriver BiDi listening on ws://127.0.0.1:52519
+1667408967210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileJk9RNZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52519/devtools/browser/e8a7c32b-d15f-40a9-aeff-c22a20fb69c5
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409008334	geckodriver	INFO	Listening on 127.0.0.1:52690
+1667409011362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile3GmAAh"
+1667409011798	Marionette	INFO	Marionette enabled
+1667409011804	Marionette	INFO	Listening on port 52700
+Read port: 52700
+WebDriver BiDi listening on ws://127.0.0.1:52691
+1667409011949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile3GmAAh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52691/devtools/browser/4e8dc24e-b25a-489b-a3c7-2c8f0c8ef30d
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409025566	geckodriver	INFO	Listening on 127.0.0.1:52922
+1667409028637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile4BUxql"
+1667409029045	Marionette	INFO	Marionette enabled
+1667409029051	Marionette	INFO	Listening on port 52932
+Read port: 52932
+WebDriver BiDi listening on ws://127.0.0.1:52923
+1667409029174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile4BUxql\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52923/devtools/browser/f13eccf7-608a-48f0-a283-8ec13ea5a7c4
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409102153	geckodriver	INFO	Listening on 127.0.0.1:53071
+1667409105210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53072" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilecyHRig"
+1667409105624	Marionette	INFO	Marionette enabled
+1667409105630	Marionette	INFO	Listening on port 53081
+Read port: 53081
+WebDriver BiDi listening on ws://127.0.0.1:53072
+1667409105756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilecyHRig\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53072/devtools/browser/edeaa97a-70f1-42dd-8a51-81bdbc50367a
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409157660	geckodriver	INFO	Listening on 127.0.0.1:53301
+1667409160721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53302" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile4wO0D0"
+1667409161143	Marionette	INFO	Marionette enabled
+1667409161149	Marionette	INFO	Listening on port 53311
+Read port: 53311
+WebDriver BiDi listening on ws://127.0.0.1:53302
+1667409161273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile4wO0D0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53302/devtools/browser/71ec5374-9c7f-4f31-9afb-b4cf5e43b241
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409368574	geckodriver	INFO	Listening on 127.0.0.1:53487
+1667409371645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile2SBSeT"
+1667409372047	Marionette	INFO	Marionette enabled
+1667409372053	Marionette	INFO	Listening on port 53497
+Read port: 53497
+WebDriver BiDi listening on ws://127.0.0.1:53488
+1667409372178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofile2SBSeT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53488/devtools/browser/2a839daa-ca36-4b9e-9087-2102e9a97b60
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409404606	geckodriver	INFO	Listening on 127.0.0.1:53704
+1667409407685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWGpluX"
+1667409408103	Marionette	INFO	Marionette enabled
+1667409408109	Marionette	INFO	Listening on port 53714
+Read port: 53714
+WebDriver BiDi listening on ws://127.0.0.1:53705
+1667409408235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileWGpluX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53705/devtools/browser/d2e631d3-5f78-411e-b8ae-2589c52edee0
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409466309	geckodriver	INFO	Listening on 127.0.0.1:53925
+1667409469352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53926" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileCvjjNf"
+1667409469760	Marionette	INFO	Marionette enabled
+1667409469766	Marionette	INFO	Listening on port 53935
+Read port: 53935
+WebDriver BiDi listening on ws://127.0.0.1:53926
+1667409469891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileCvjjNf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53926/devtools/browser/2a99e320-9947-4f99-bbcd-39873a95526c
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409526576	geckodriver	INFO	Listening on 127.0.0.1:54201
+1667409529645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKQCxYn"
+1667409530048	Marionette	INFO	Marionette enabled
+1667409530055	Marionette	INFO	Listening on port 54211
+Read port: 54211
+WebDriver BiDi listening on ws://127.0.0.1:54202
+1667409530183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofileKQCxYn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54202/devtools/browser/ed1f4668-8a22-4bf2-a13c-585ae2b938d0
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined
+1667409606128	geckodriver	INFO	Listening on 127.0.0.1:54554
+1667409609209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilepQSIQr"
+1667409609620	Marionette	INFO	Marionette enabled
+1667409609627	Marionette	INFO	Listening on port 54564
+Read port: 54564
+WebDriver BiDi listening on ws://127.0.0.1:54555
+1667409609750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jim\\AppData\\Local\\Temp\\rust_mozprofilepQSIQr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54555/devtools/browser/5bd8c4d8-55b5-409c-b67c-40b580fb9f67
+JavaScript error: http://www.drowtales.com/~daydream/archive_themes/a10_daydream2/js/archive.js, line 317: ReferenceError: CheckHashSearch is not defined

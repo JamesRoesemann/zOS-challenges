@@ -15,6 +15,8 @@
       * game published in the NOV - DEC 1974 issue of         *
       * Creative Computing Magazine.  
       * 
+      *Intended to be combiled with gnuCOBOL (COBC)
+      *into an executable program
       *
       * Game Rec id only for JCL compatiblity. will write  non JCl
       *compatible version for now.                            *
