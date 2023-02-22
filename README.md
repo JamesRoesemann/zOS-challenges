@@ -1,5 +1,5 @@
 # zOS-challenges
-Personal code changes from the Franklin IBM zOS slack channel \
+Personal code chalanges from the Franklin IBM zOS slack channel \
 
 
 These are my own personal attempts to complete the code chalanged posted by Cliff Chipman in the Franklin IBM z/OS slack channel.
